@@ -21,7 +21,7 @@ import Lightbox from 'react-images';
 
 let textboxhigh = {
   marginLeft:'10%',
-marginTop:'50%',
+marginTop:'40%',
 
 webkitTransition: 'marginTop 0.4s',
 transition: 'marginTop 0.4s'
@@ -30,7 +30,7 @@ transition: 'marginTop 0.4s'
 
 let textboxlow = {
   marginLeft:'10%',
-marginTop:'60%'}
+marginTop:'50%'}
 
 let textboxstyle = textboxlow;
 

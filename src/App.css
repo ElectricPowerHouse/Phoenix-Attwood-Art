@@ -42,7 +42,7 @@ background-size:100%100%;
 
 
 .Title-Small{
-  font-size: 2.3rem;
+  font-size: 2rem;
   opacity:0.86;
 }
 
@@ -52,7 +52,7 @@ background-size:100%100%;
 
 
 .Title-Big{
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   opacity:0.86;
 
 }
@@ -75,22 +75,22 @@ background-size:100%100%;
 
 .Bio{
   margin-top:13%;
-  font-size:0.83rem;
+  font-size:0.75rem;
 }
 
 .Contact-Text{
   margin-top:13%;
-  font-size:0.83rem;
+  font-size:0.75rem;
 }
 
 .Phone{
   margin-top:13%;
-  font-size:0.83rem;
+  font-size:0.75rem;
 }
 
 .Email{
   margin-top:3%;
-  font-size:0.83rem;
+  font-size:0.75rem;
 }
 
 .Arrow{
@@ -117,7 +117,7 @@ background-size:100%100%;
 
 .Contact{
   margin-top:5%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   opacity:1;
 
@@ -133,7 +133,7 @@ background-size:100%100%;
 
 .Gallery{
   margin-top:5%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   opacity:1;
 

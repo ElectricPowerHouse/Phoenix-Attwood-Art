@@ -1,8 +1,17 @@
 
+For sam: 
 
-- Finalize paintings that are shown on front page ( May have to change front page if they are different from current ones)
-- Decide whether you would like to thingy thing your paintings
+Are you going to code the whole thing yourself? Things that need to be done: 
+Backend, High res image loading (before the actual page loads), thumbnail choose etc.
+
+Things I can do (probably): 
+
+Transitions, fades, animations etc, small visual tweaks
+
+For Phoenix:
+
+- Finalize exactly which paintings are going on the site
+- Finalize paintings that are shown on front page ( May have to change front page background design if they are different from current ones)
+- Decide whether you would like to put a watermark on your paintings if you don't want people downloading the high-res images.
 - Put in your bio text
 - Put in your contact details
-- (Sam) Fix on thumbnail click
-- 
