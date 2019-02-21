@@ -12,9 +12,27 @@ import PaintingF from './images/ArtworkF.png';
 
 import Fade from 'react-reveal/Fade';
 
+import { useSpring, animated } from 'react-spring'
+
 import Thumbnail from './images/favicon-16x16.png'
 
 import Lightbox from 'react-images';
+
+
+let textboxhigh = {
+  marginLeft:'10%',
+marginTop:'50%',
+
+webkitTransition: 'marginTop 0.4s',
+transition: 'marginTop 0.4s'
+
+}
+
+let textboxlow = {
+  marginLeft:'10%',
+marginTop:'60%'}
+
+let textboxstyle = textboxlow;
 
 
 let paintings = [PaintingA,PaintingB,PaintingC,PaintingD,PaintingE,PaintingF]
@@ -23,10 +41,14 @@ let CurrentImage = paintings[2];
 let CurrentImage2 = paintings[3];
 
 
+
+
 class App extends Component {
+
   constructor(props){
     super(props);
   this.state = {
+
     painting: 2,
     painting2: 3,
    seconds: 15,   // responsible for the seconds
@@ -48,7 +70,6 @@ class App extends Component {
   this.countDown = this.countDown.bind(this);
   this.startTimer();
 }
-
 
 
 
@@ -162,7 +183,7 @@ componentDidMount() {
         <div className = 'Container'>
           <div className = 'Text-Column'>
             <Fade>
-            <div className = 'Text-Box'>
+            <div className = 'Text-Box' style = {textboxstyle}>
               <div className = 'Title'>
                 <div className = 'Title-Small' > Phoenix </div>
                 <div className = 'Title-Big' > Attwood</div>
@@ -207,7 +228,7 @@ componentDidMount() {
   }
 
   renderContactText(){
-            return (  <div className = 'Contact' onClick = {()=> {this.setState({contactIsOpen:true})}}> contact </div> );
+            return (  <div className = 'Contact'  onClick = {()=> {this.setState({contactIsOpen:true}); textboxstyle = textboxhigh}}> contact </div> );
   }
 
   renderContactExtended(){
@@ -218,7 +239,7 @@ componentDidMount() {
             <div className = 'Contact-Text'> If you would like to get in contact with Phoenix to purchase prints or originals please email or call at:  </div>
             <div className = 'Phone'> phone: 023 022 0233  </div>
             <div className = 'Email'> email: phoenixattwood@gmail.com </div>
-            <div className = 'Arrow' onClick = {()=> {this.setState({contactIsOpen:false})}}/>
+            <div className = 'Arrow' onClick = {()=> {this.setState({contactIsOpen:false}); textboxstyle = textboxlow}}/>
 
         </div>
         </Fade>

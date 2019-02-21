@@ -1,1 +1,8 @@
-yote
+
+
+- Finalize paintings that are shown on front page ( May have to change front page if they are different from current ones)
+- Decide whether you would like to thingy thing your paintings
+- Put in your bio text
+- Put in your contact details
+- (Sam) Fix on thumbnail click
+- 
